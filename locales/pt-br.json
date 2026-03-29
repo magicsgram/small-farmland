@@ -42,17 +42,6 @@
   "game.meta.gameId": "ID do jogo",
   "game.farmland.blue": "Área agrícola azul",
   "game.farmland.orange": "Área agrícola laranja",
-  "errors.createGameUnavailable": "Não foi possível criar um jogo agora.",
-  "errors.refreshGameUnavailable": "Não foi possível atualizar o jogo.",
-  "errors.connectionError": "Erro de conexão. Tente novamente.",
-  "errors.gameAlreadyFinished": "Este jogo já acabou. Reinicie o tabuleiro para jogar novamente.",
-  "errors.notYourTurnBlue": "É a vez do azul.",
-  "errors.notYourTurnOrange": "É a vez do laranja.",
-  "errors.moveOutsideBoard": "Esse movimento está fora do tabuleiro.",
-  "errors.intersectionOccupied": "Já existe uma fazenda aí.",
-  "errors.cannotPlaceInFarmland": "Você não pode colocar uma fazenda em terreno reivindicado.",
-  "errors.moveWithoutLiberties": "Sua fazenda não pode ser colocada aí.",
-  "errors.noMovesToUndo": "Não há jogadas para desfazer.",
   "errors.gameNotFound": "Jogo não encontrado.",
   "errors.pageNotFound": "Não foi possível encontrar esta página."
 }

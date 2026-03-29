@@ -42,17 +42,6 @@
   "game.meta.gameId": "Spiel-ID",
   "game.farmland.blue": "Blaues Ackerland",
   "game.farmland.orange": "Oranges Ackerland",
-  "errors.createGameUnavailable": "Ein Spiel kann derzeit nicht erstellt werden.",
-  "errors.refreshGameUnavailable": "Das Spiel kann nicht aktualisiert werden.",
-  "errors.connectionError": "Verbindungsfehler. Bitte versuche es erneut.",
-  "errors.gameAlreadyFinished": "Dieses Spiel ist bereits beendet. Setze das Brett zurück, um erneut zu spielen.",
-  "errors.notYourTurnBlue": "Blau ist am Zug.",
-  "errors.notYourTurnOrange": "Orange ist am Zug.",
-  "errors.moveOutsideBoard": "Dieser Zug liegt außerhalb des Bretts.",
-  "errors.intersectionOccupied": "Dort steht bereits ein Bauernhaus.",
-  "errors.cannotPlaceInFarmland": "Du kannst kein Bauernhaus auf ein beanspruchtes Feld setzen.",
-  "errors.moveWithoutLiberties": "Dein Bauernhaus kann dort nicht platziert werden.",
-  "errors.noMovesToUndo": "Es gibt keine Züge zum Rückgängigmachen.",
   "errors.gameNotFound": "Spiel nicht gefunden.",
   "errors.pageNotFound": "Diese Seite konnte nicht gefunden werden."
 }

@@ -42,17 +42,6 @@
   "game.meta.gameId": "விளையாட்டு ID",
   "game.farmland.blue": "நீல நிலம்",
   "game.farmland.orange": "ஆரஞ்சு நிலம்",
-  "errors.createGameUnavailable": "இப்போது விளையாட்டை உருவாக்க முடியவில்லை.",
-  "errors.refreshGameUnavailable": "விளையாட்டை புதுப்பிக்க முடியவில்லை.",
-  "errors.connectionError": "இணைப்பு பிழை. மீண்டும் முயற்சிக்கவும்.",
-  "errors.gameAlreadyFinished": "இந்த விளையாட்டு ஏற்கனவே முடிந்துவிட்டது. மீண்டும் விளையாட பலகையை மீட்டமைக்கவும்.",
-  "errors.notYourTurnBlue": "நீலத்தின் முறை.",
-  "errors.notYourTurnOrange": "ஆரஞ்சின் முறை.",
-  "errors.moveOutsideBoard": "அந்த நகர்வு பலகைக்கு வெளியே உள்ளது.",
-  "errors.intersectionOccupied": "அங்கே ஏற்கனவே ஒரு பண்ணை வீடு உள்ளது.",
-  "errors.cannotPlaceInFarmland": "கோரப்பட்ட நிலத்தில் பண்ணை வீடு வைக்க முடியாது.",
-  "errors.moveWithoutLiberties": "உங்கள் பண்ணை வீட்டை அங்கே வைக்க முடியாது.",
-  "errors.noMovesToUndo": "செயல்தவிர்க்க நகர்வுகள் இல்லை.",
   "errors.gameNotFound": "விளையாட்டு கிடைக்கவில்லை.",
   "errors.pageNotFound": "இந்த பக்கம் கிடைக்கவில்லை."
 }

@@ -42,17 +42,6 @@
   "game.meta.gameId": "ID игры",
   "game.farmland.blue": "Синие угодья",
   "game.farmland.orange": "Оранжевые угодья",
-  "errors.createGameUnavailable": "Сейчас невозможно создать игру.",
-  "errors.refreshGameUnavailable": "Не удалось обновить игру.",
-  "errors.connectionError": "Ошибка соединения. Попробуйте ещё раз.",
-  "errors.gameAlreadyFinished": "Эта игра уже завершена. Сбросьте поле, чтобы сыграть снова.",
-  "errors.notYourTurnBlue": "Ход синих.",
-  "errors.notYourTurnOrange": "Ход оранжевых.",
-  "errors.moveOutsideBoard": "Этот ход за пределами доски.",
-  "errors.intersectionOccupied": "Там уже стоит домик.",
-  "errors.cannotPlaceInFarmland": "Нельзя ставить домик на занятое поле.",
-  "errors.moveWithoutLiberties": "Там нельзя поставить домик.",
-  "errors.noMovesToUndo": "Нет ходов для отмены.",
   "errors.gameNotFound": "Игра не найдена.",
   "errors.pageNotFound": "Не удалось найти эту страницу."
 }

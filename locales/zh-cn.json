@@ -42,17 +42,6 @@
   "game.meta.gameId": "游戏 ID",
   "game.farmland.blue": "蓝方农地",
   "game.farmland.orange": "橙方农地",
-  "errors.createGameUnavailable": "当前无法创建游戏。",
-  "errors.refreshGameUnavailable": "无法刷新游戏。",
-  "errors.connectionError": "连接错误。请重试。",
-  "errors.gameAlreadyFinished": "本局游戏已经结束。重置棋盘后可重新开始。",
-  "errors.notYourTurnBlue": "现在是蓝方回合。",
-  "errors.notYourTurnOrange": "现在是橙方回合。",
-  "errors.moveOutsideBoard": "该手棋在棋盘外。",
-  "errors.intersectionOccupied": "那里已经有农舍了。",
-  "errors.cannotPlaceInFarmland": "不能在已认领的农地上放置农舍。",
-  "errors.moveWithoutLiberties": "你的农舍无法放在那里。",
-  "errors.noMovesToUndo": "没有可以撤销的棋步。",
   "errors.gameNotFound": "游戏未找到。",
   "errors.pageNotFound": "无法找到此页面。"
 }

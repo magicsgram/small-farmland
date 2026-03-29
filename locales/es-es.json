@@ -42,17 +42,6 @@
   "game.meta.gameId": "ID de partida",
   "game.farmland.blue": "Terreno agrícola azul",
   "game.farmland.orange": "Terreno agrícola naranja",
-  "errors.createGameUnavailable": "No se puede crear una partida ahora mismo.",
-  "errors.refreshGameUnavailable": "No se puede actualizar la partida.",
-  "errors.connectionError": "Error de conexión. Inténtalo de nuevo.",
-  "errors.gameAlreadyFinished": "Esta partida ya ha terminado. Reinicia el tablero para volver a jugar.",
-  "errors.notYourTurnBlue": "Es el turno de azul.",
-  "errors.notYourTurnOrange": "Es el turno de naranja.",
-  "errors.moveOutsideBoard": "Ese movimiento está fuera del tablero.",
-  "errors.intersectionOccupied": "Ya hay una granja ahí.",
-  "errors.cannotPlaceInFarmland": "No puedes colocar una granja en una parcela reclamada.",
-  "errors.moveWithoutLiberties": "Tu granja no puede colocarse ahí.",
-  "errors.noMovesToUndo": "No hay movimientos que deshacer.",
   "errors.gameNotFound": "Partida no encontrada.",
   "errors.pageNotFound": "No se pudo encontrar esta página."
 }

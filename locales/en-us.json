@@ -42,17 +42,6 @@
   "game.meta.gameId": "Game ID",
   "game.farmland.blue": "Blue farmland",
   "game.farmland.orange": "Orange farmland",
-  "errors.createGameUnavailable": "Unable to create a game right now.",
-  "errors.refreshGameUnavailable": "Unable to refresh the game.",
-  "errors.connectionError": "Connection error. Please try again.",
-  "errors.gameAlreadyFinished": "This game is already finished. Reset the board to play again.",
-  "errors.notYourTurnBlue": "It is blue's turn.",
-  "errors.notYourTurnOrange": "It is orange's turn.",
-  "errors.moveOutsideBoard": "That move is outside the board.",
-  "errors.intersectionOccupied": "There is already a farmhouse there.",
-  "errors.cannotPlaceInFarmland": "You cannot place a farmhouse on claimed farmland.",
-  "errors.moveWithoutLiberties": "Your farmhouse cannot be placed there.",
-  "errors.noMovesToUndo": "There are no moves to undo.",
   "errors.gameNotFound": "Game not found.",
   "errors.pageNotFound": "This page could not be found."
 }

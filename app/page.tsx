@@ -46,7 +46,6 @@ export default async function Home({ searchParams }: HomePageProps) {
           language={language}
           createLabel={messages["landing.createGame"]}
           creatingLabel={messages["landing.creatingGame"]}
-          createErrorLabel={messages["errors.createGameUnavailable"]}
         />
 
         <RulesButton label={messages["landing.rules.title"]} sections={ruleSections} />

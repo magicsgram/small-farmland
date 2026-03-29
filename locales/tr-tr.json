@@ -42,17 +42,6 @@
   "game.meta.gameId": "Oyun kimliği",
   "game.farmland.blue": "Mavi tarım arazisi",
   "game.farmland.orange": "Turuncu tarım arazisi",
-  "errors.createGameUnavailable": "Şu anda oyun oluşturulamıyor.",
-  "errors.refreshGameUnavailable": "Oyun yenilenemedi.",
-  "errors.connectionError": "Oyun güncellenemedi.",
-  "errors.gameAlreadyFinished": "Bu oyun zaten bitti. Yeniden oynamak için tahtayı sıfırla.",
-  "errors.notYourTurnBlue": "Mavi oynuyor.",
-  "errors.notYourTurnOrange": "Turuncu oynuyor.",
-  "errors.moveOutsideBoard": "Bu hamle tahtanın dışında.",
-  "errors.intersectionOccupied": "Orada zaten bir çiftlik evi var.",
-  "errors.cannotPlaceInFarmland": "Sahiplenilen tarlaya çiftlik evi koyamazsınız.",
-  "errors.moveWithoutLiberties": "Çiftlik evin oraya yerleştirilemez.",
-  "errors.noMovesToUndo": "Geri alınacak hamle yok.",
   "errors.gameNotFound": "Oyun bulunamadı.",
   "errors.pageNotFound": "Bu sayfa bulunamadı."
 }

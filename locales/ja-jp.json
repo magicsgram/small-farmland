@@ -42,17 +42,6 @@
   "game.meta.gameId": "ゲーム ID",
   "game.farmland.blue": "青の農地",
   "game.farmland.orange": "オレンジの農地",
-  "errors.createGameUnavailable": "現在ゲームを作成できません。",
-  "errors.refreshGameUnavailable": "ゲームを更新できません。",
-  "errors.connectionError": "ゲームを更新できません。",
-  "errors.gameAlreadyFinished": "このゲームはすでに終了しています。再プレイするにはボードをリセットしてください。",
-  "errors.notYourTurnBlue": "青の番です。",
-  "errors.notYourTurnOrange": "オレンジの番です。",
-  "errors.moveOutsideBoard": "その手は盤外です。",
-  "errors.intersectionOccupied": "そこにはすでに農家があります。",
-  "errors.cannotPlaceInFarmland": "確保済みの農地には農家を置けません。",
-  "errors.moveWithoutLiberties": "そこには農家を置けません。",
-  "errors.noMovesToUndo": "元に戻す手がありません。",
   "errors.gameNotFound": "ゲームが見つかりません。",
   "errors.pageNotFound": "このページは見つかりませんでした。"
 }

@@ -42,17 +42,6 @@
   "game.meta.gameId": "ID partita",
   "game.farmland.blue": "Terreno agricolo blu",
   "game.farmland.orange": "Terreno agricolo arancione",
-  "errors.createGameUnavailable": "Impossibile creare una partita in questo momento.",
-  "errors.refreshGameUnavailable": "Impossibile aggiornare la partita.",
-  "errors.connectionError": "Errore di connessione. Riprova.",
-  "errors.gameAlreadyFinished": "Questa partita è già terminata. Reimposta il tabellone per giocare di nuovo.",
-  "errors.notYourTurnBlue": "È il turno del blu.",
-  "errors.notYourTurnOrange": "È il turno dell'arancione.",
-  "errors.moveOutsideBoard": "Questa mossa è fuori dal tabellone.",
-  "errors.intersectionOccupied": "C'è già una fattoria lì.",
-  "errors.cannotPlaceInFarmland": "Non puoi posizionare una fattoria su un terreno rivendicato.",
-  "errors.moveWithoutLiberties": "La tua fattoria non può essere posizionata lì.",
-  "errors.noMovesToUndo": "Non ci sono mosse da annullare.",
   "errors.gameNotFound": "Gioco non trovato.",
   "errors.pageNotFound": "Impossibile trovare questa pagina."
 }

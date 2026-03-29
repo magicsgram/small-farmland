@@ -42,17 +42,6 @@
   "game.meta.gameId": "Spel-ID",
   "game.farmland.blue": "Blauw landbouwgebied",
   "game.farmland.orange": "Oranje landbouwgebied",
-  "errors.createGameUnavailable": "Kan nu geen spel aanmaken.",
-  "errors.refreshGameUnavailable": "Kan het spel niet vernieuwen.",
-  "errors.connectionError": "Verbindingsfout. Probeer het opnieuw.",
-  "errors.gameAlreadyFinished": "Dit spel is al afgelopen. Reset het bord om opnieuw te spelen.",
-  "errors.notYourTurnBlue": "Het is de beurt van Blauw.",
-  "errors.notYourTurnOrange": "Het is de beurt van Oranje.",
-  "errors.moveOutsideBoard": "Die zet valt buiten het bord.",
-  "errors.intersectionOccupied": "Daar staat al een boerderij.",
-  "errors.cannotPlaceInFarmland": "Je kunt geen boerderij plaatsen op opgeëist land.",
-  "errors.moveWithoutLiberties": "Je boerderij kan daar niet geplaatst worden.",
-  "errors.noMovesToUndo": "Er zijn geen zetten om ongedaan te maken.",
   "errors.gameNotFound": "Spel niet gevonden.",
   "errors.pageNotFound": "Deze pagina kon niet worden gevonden."
 }

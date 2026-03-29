@@ -42,17 +42,6 @@
   "game.meta.gameId": "ID gry",
   "game.farmland.blue": "Niebieskie pola uprawne",
   "game.farmland.orange": "Pomarańczowe pola uprawne",
-  "errors.createGameUnavailable": "Nie można teraz utworzyć gry.",
-  "errors.refreshGameUnavailable": "Nie można odświeżyć gry.",
-  "errors.connectionError": "Nie można zaktualizować gry.",
-  "errors.gameAlreadyFinished": "Ta gra jest już zakończona. Zresetuj planszę, aby zagrać ponownie.",
-  "errors.notYourTurnBlue": "Tura niebieskich.",
-  "errors.notYourTurnOrange": "Tura pomarańczowych.",
-  "errors.moveOutsideBoard": "Ten ruch jest poza planszą.",
-  "errors.intersectionOccupied": "W tym miejscu stoi już gospodarstwo.",
-  "errors.cannotPlaceInFarmland": "Nie można postawić gospodarstwa na przejętym polu.",
-  "errors.moveWithoutLiberties": "Twojego gospodarstwa nie można tu umieścić.",
-  "errors.noMovesToUndo": "Nie ma ruchów do cofnięcia.",
   "errors.gameNotFound": "Nie znaleziono gry.",
   "errors.pageNotFound": "Nie można znaleźć tej strony."
 }

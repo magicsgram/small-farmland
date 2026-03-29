@@ -42,17 +42,6 @@
   "game.meta.gameId": "รหัสเกม",
   "game.farmland.blue": "ที่ดินฝ่ายน้ำเงิน",
   "game.farmland.orange": "ที่ดินฝ่ายส้ม",
-  "errors.createGameUnavailable": "ไม่สามารถสร้างเกมได้ในขณะนี้",
-  "errors.refreshGameUnavailable": "ไม่สามารถรีเฟรชเกมได้",
-  "errors.connectionError": "เกิดข้อผิดพลาดในการเชื่อมต่อ กรุณาลองใหม่อีกครั้ง",
-  "errors.gameAlreadyFinished": "เกมนี้จบลงแล้ว รีเซ็ตกระดานเพื่อเล่นใหม่",
-  "errors.notYourTurnBlue": "ตาของฝ่ายน้ำเงิน",
-  "errors.notYourTurnOrange": "ตาของฝ่ายส้ม",
-  "errors.moveOutsideBoard": "การเดินนั้นอยู่นอกกระดาน",
-  "errors.intersectionOccupied": "มีบ้านฟาร์มอยู่ที่นั่นแล้ว",
-  "errors.cannotPlaceInFarmland": "คุณไม่สามารถวางบ้านฟาร์มบนที่ดินที่มีเจ้าของแล้ว",
-  "errors.moveWithoutLiberties": "ไม่สามารถวางบ้านฟาร์มของคุณที่นั่นได้",
-  "errors.noMovesToUndo": "ไม่มีการเดินที่จะเลิกทำ",
   "errors.gameNotFound": "ไม่พบเกม",
   "errors.pageNotFound": "ไม่พบหน้านี้"
 }

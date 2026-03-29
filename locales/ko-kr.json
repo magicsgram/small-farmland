@@ -42,17 +42,6 @@
   "game.meta.gameId": "게임 ID",
   "game.farmland.blue": "파랑 농지",
   "game.farmland.orange": "주황 농지",
-  "errors.createGameUnavailable": "지금은 게임을 만들 수 없습니다.",
-  "errors.refreshGameUnavailable": "게임을 새로고침할 수 없습니다.",
-  "errors.connectionError": "연결 오류입니다. 다시 시도하세요.",
-  "errors.gameAlreadyFinished": "이 게임은 이미 종료되었습니다. 다시 플레이하려면 보드를 초기화하세요.",
-  "errors.notYourTurnBlue": "파랑 차례입니다.",
-  "errors.notYourTurnOrange": "주황 차례입니다.",
-  "errors.moveOutsideBoard": "그 수는 보드 밖입니다.",
-  "errors.intersectionOccupied": "그곳에는 이미 농가가 있습니다.",
-  "errors.cannotPlaceInFarmland": "선점된 농지에는 농가를 놓을 수 없습니다.",
-  "errors.moveWithoutLiberties": "거기에는 농가를 놓을 수 없습니다.",
-  "errors.noMovesToUndo": "되돌릴 수 있는 수가 없습니다.",
   "errors.gameNotFound": "게임을 찾을 수 없습니다.",
   "errors.pageNotFound": "이 페이지를 찾을 수 없습니다."
 }

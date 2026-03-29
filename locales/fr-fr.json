@@ -42,17 +42,6 @@
   "game.meta.gameId": "ID de partie",
   "game.farmland.blue": "Zone agricole bleue",
   "game.farmland.orange": "Zone agricole orange",
-  "errors.createGameUnavailable": "Impossible de créer une partie pour le moment.",
-  "errors.refreshGameUnavailable": "Impossible d'actualiser la partie.",
-  "errors.connectionError": "Erreur de connexion. Veuillez réessayer.",
-  "errors.gameAlreadyFinished": "Cette partie est déjà terminée. Réinitialisez le plateau pour rejouer.",
-  "errors.notYourTurnBlue": "C'est au tour du bleu.",
-  "errors.notYourTurnOrange": "C'est au tour de l'orange.",
-  "errors.moveOutsideBoard": "Ce coup est en dehors du plateau.",
-  "errors.intersectionOccupied": "Il y a déjà une ferme là.",
-  "errors.cannotPlaceInFarmland": "Vous ne pouvez pas placer une ferme sur une terre revendiquée.",
-  "errors.moveWithoutLiberties": "Votre ferme ne peut pas être placée ici.",
-  "errors.noMovesToUndo": "Il n'y a aucun coup à annuler.",
   "errors.gameNotFound": "Jeu introuvable.",
   "errors.pageNotFound": "Cette page est introuvable."
 }

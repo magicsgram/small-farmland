@@ -42,17 +42,6 @@
   "game.meta.gameId": "遊戲 ID",
   "game.farmland.blue": "藍方農地",
   "game.farmland.orange": "橘方農地",
-  "errors.createGameUnavailable": "目前無法建立遊戲。",
-  "errors.refreshGameUnavailable": "無法重新整理遊戲。",
-  "errors.connectionError": "連線錯誤。請再試一次。",
-  "errors.gameAlreadyFinished": "本局遊戲已經結束。重設棋盤後即可重新開始。",
-  "errors.notYourTurnBlue": "現在是藍方回合。",
-  "errors.notYourTurnOrange": "現在是橘方回合。",
-  "errors.moveOutsideBoard": "該手棋在棋盤外。",
-  "errors.intersectionOccupied": "那裡已經有農舍了。",
-  "errors.cannotPlaceInFarmland": "不能在已認領的農地上放置農舍。",
-  "errors.moveWithoutLiberties": "你的農舍無法放在那裡。",
-  "errors.noMovesToUndo": "沒有可以復原的棋步。",
   "errors.gameNotFound": "遊戲未找到。",
   "errors.pageNotFound": "找不到此頁面。"
 }

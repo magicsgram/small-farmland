@@ -271,17 +271,6 @@ async function readJson<T>(response: Response): Promise<T> {
   return (await response.json()) as T;
 }
 
-function resolveGameActionErrorMessage(
-  data: { error?: string; errorCode?: keyof LocaleMessages },
-  messages: LocaleMessages,
-) {
-  if (data.errorCode) {
-    return messages[data.errorCode];
-  }
-
-  return data.error ?? messages["errors.connectionError"];
-}
-
 export function GameRoom({
   initialSnapshot,
   gameUrl,
@@ -290,8 +279,6 @@ export function GameRoom({
 }: GameRoomProps) {
   const router = useRouter();
   const [snapshot, setSnapshot] = useState(initialSnapshot);
-  const [error, setError] = useState<string | null>(null);
-  const [streamStatus, setStreamStatus] = useState<"connected" | "reconnecting">("connected");
   const [copied, setCopied] = useState(false);
   const [isRulesOpen, setIsRulesOpen] = useState(false);
   const [isHomeConfirmOpen, setIsHomeConfirmOpen] = useState(false);
@@ -370,36 +357,19 @@ export function GameRoom({
       positions: new Set(latestMove.captured.map((position) => positionKey(position.row, position.col))),
     };
   }, [snapshot.moveHistory, snapshot.status]);
-  const streamStatusLabel = streamStatus === "reconnecting"
-    ? "Live updates reconnecting..."
-    : null;
-
   useEffect(() => {
     const eventSource = new EventSource(`/api/games/${snapshot.gameId}/events`);
-
-    eventSource.onopen = () => {
-      setError(null);
-      setStreamStatus("connected");
-    };
 
     eventSource.onmessage = (event) => {
       try {
         const data = JSON.parse(event.data) as { snapshot?: GameSnapshot };
 
-        if (!data.snapshot) {
-          throw new Error("Missing streamed snapshot.");
+        if (data.snapshot) {
+          setSnapshot(data.snapshot);
         }
-
-        setSnapshot(data.snapshot);
-        setError(null);
-        setStreamStatus("connected");
       } catch {
-        setError(messages["errors.refreshGameUnavailable"]);
+        // silently ignore
       }
-    };
-
-    eventSource.onerror = () => {
-      setStreamStatus("reconnecting");
     };
 
     return () => {
@@ -437,8 +407,6 @@ export function GameRoom({
   }, [isHomeConfirmOpen, isResetConfirmOpen, isRulesOpen]);
 
   function runAction(action: GameActionInput) {
-    setError(null);
-
     startTransition(async () => {
       try {
         const response = await fetch(`/api/games/${snapshot.gameId}`, {
@@ -451,21 +419,13 @@ export function GameRoom({
 
         const data = await readJson<{
           snapshot?: GameSnapshot;
-          error?: string;
-          errorCode?: keyof LocaleMessages;
         }>(response);
 
-        if (!response.ok || !data.snapshot) {
-          throw new Error(resolveGameActionErrorMessage(data, messages));
+        if (response.ok && data.snapshot) {
+          setSnapshot(data.snapshot);
         }
-
-        setSnapshot(data.snapshot);
-      } catch (actionError) {
-        const message =
-          actionError instanceof Error
-            ? actionError.message
-            : messages["errors.connectionError"];
-        setError(message);
+      } catch {
+        // silently ignore
       }
     });
   }
@@ -687,7 +647,7 @@ export function GameRoom({
           </div>
 
           <div className="order-2 rounded-2xl bg-white/6 px-3 py-4 text-center max-[380px]:px-2.5 max-[380px]:py-3 sm:rounded-3xl sm:px-4 sm:py-6 lg:order-5">
-            <p className={`text-2xl font-semibold tracking-tight max-[380px]:text-xl sm:text-3xl ${turnPromptClass}`}>{turnPrompt}</p>
+            <AutoFitText maxPx={30} minPx={14} className={`font-semibold tracking-tight ${turnPromptClass}`}>{turnPrompt}</AutoFitText>
             {hasNeutral && canPlayTurn ? (
               <button
                 type="button"
@@ -747,13 +707,6 @@ export function GameRoom({
           </div>
 
           <div aria-hidden="true" className="order-5 my-2 border-t border-white/10 lg:order-4" />
-
-          {streamStatusLabel ? (
-            <p className="rounded-2xl bg-amber-400/15 px-3 py-2 text-xs text-amber-100 sm:px-4 sm:py-3 sm:text-sm">
-              {streamStatusLabel}
-            </p>
-          ) : null}
-          {error ? <p className="rounded-2xl bg-red-500/15 px-3 py-2 text-xs text-red-100 sm:px-4 sm:py-3 sm:text-sm">{error}</p> : null}
           </aside>
         </div>
       </section>

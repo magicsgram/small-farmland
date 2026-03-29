@@ -42,17 +42,6 @@
   "game.meta.gameId": "معرّف اللعبة",
   "game.farmland.blue": "الأراضي الزراعية الزرقاء",
   "game.farmland.orange": "الأراضي الزراعية البرتقالية",
-  "errors.createGameUnavailable": "يتعذر إنشاء لعبة الآن.",
-  "errors.refreshGameUnavailable": "يتعذر تحديث اللعبة.",
-  "errors.connectionError": "حدث خطأ في الاتصال. يُرجى المحاولة مرة أخرى.",
-  "errors.gameAlreadyFinished": "انتهت هذه اللعبة بالفعل. أعِد ضبط اللوحة للعب مجددًا.",
-  "errors.notYourTurnBlue": "دور الأزرق.",
-  "errors.notYourTurnOrange": "دور البرتقالي.",
-  "errors.moveOutsideBoard": "هذه النقلة خارج اللوحة.",
-  "errors.intersectionOccupied": "توجد مزرعة هناك بالفعل.",
-  "errors.cannotPlaceInFarmland": "لا يمكنك وضع مزرعة على أرض زراعية مسيطر عليها.",
-  "errors.moveWithoutLiberties": "لا يمكن وضع مزرعتك هنا.",
-  "errors.noMovesToUndo": "لا توجد نقلات للتراجع عنها.",
   "errors.gameNotFound": "لم يتم العثور على اللعبة.",
   "errors.pageNotFound": "تعذر العثور على هذه الصفحة."
 }

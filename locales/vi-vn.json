@@ -42,17 +42,6 @@
   "game.meta.gameId": "ID trò chơi",
   "game.farmland.blue": "Đất của Xanh",
   "game.farmland.orange": "Đất của Cam",
-  "errors.createGameUnavailable": "Không thể tạo trò chơi ngay bây giờ.",
-  "errors.refreshGameUnavailable": "Không thể làm mới trò chơi.",
-  "errors.connectionError": "Lỗi kết nối. Vui lòng thử lại.",
-  "errors.gameAlreadyFinished": "Trò chơi này đã kết thúc. Đặt lại bàn cờ để chơi lại.",
-  "errors.notYourTurnBlue": "Đến lượt Xanh.",
-  "errors.notYourTurnOrange": "Đến lượt Cam.",
-  "errors.moveOutsideBoard": "Nước đi đó nằm ngoài bàn cờ.",
-  "errors.intersectionOccupied": "Đã có một nông trại ở đó.",
-  "errors.cannotPlaceInFarmland": "Bạn không thể đặt nông trại lên đất đã bị chiếm.",
-  "errors.moveWithoutLiberties": "Nông trại của bạn không thể đặt ở đó.",
-  "errors.noMovesToUndo": "Không có nước đi nào để hoàn tác.",
   "errors.gameNotFound": "Không tìm thấy trò chơi.",
   "errors.pageNotFound": "Không tìm thấy trang này."
 }
