@@ -267,6 +267,12 @@ type GameRoomProps = {
   messages: LocaleMessages;
 };
 
+const GAME_TITLE_CONTAINER_CLASS = "min-h-[3.6rem] pt-1 sm:min-h-[4.2rem] sm:pt-1.5";
+const GAME_TITLE_MAX_PX = 46;
+const GAME_TITLE_MIN_PX = 16;
+const GAME_TITLE_TOP_INSET_EM = 0.24;
+const GAME_TITLE_TEXT_CLASS = "font-black leading-[1.26] tracking-tight drop-shadow-[0_3px_10px_rgba(0,0,0,0.4)]";
+
 async function readJson<T>(response: Response): Promise<T> {
   return (await response.json()) as T;
 }
@@ -621,11 +627,12 @@ export function GameRoom({
           </div>
 
           <div className="order-6 space-y-2 sm:space-y-3 lg:order-2">
-            <div>
+            <div className={GAME_TITLE_CONTAINER_CLASS}>
               <AutoFitText
-                maxPx={57}
-                minPx={16}
-                className="font-black tracking-tight drop-shadow-[0_3px_10px_rgba(0,0,0,0.4)]"
+                maxPx={GAME_TITLE_MAX_PX}
+                minPx={GAME_TITLE_MIN_PX}
+                topInsetEm={GAME_TITLE_TOP_INSET_EM}
+                className={GAME_TITLE_TEXT_CLASS}
               >
                 <span className="text-sky-300">{messages["app.title.small"]}</span>{" "}
                 <span className="text-orange-300">{messages["app.title.farmland"]}</span>

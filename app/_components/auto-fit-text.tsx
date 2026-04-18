@@ -7,6 +7,8 @@ type AutoFitTextProps = {
   className?: string;
   minPx?: number;
   maxPx: number;
+  // Adds top padding in em units to reserve headroom for scripts with upper marks.
+  topInsetEm?: number;
 };
 
 export function AutoFitText({
@@ -14,6 +16,7 @@ export function AutoFitText({
   className,
   minPx = 14,
   maxPx,
+  topInsetEm = 0,
 }: AutoFitTextProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const textRef = useRef<HTMLSpanElement | null>(null);
@@ -75,6 +78,7 @@ export function AutoFitText({
         ref={textRef}
         style={{
           fontSize: `${fontSize}px`,
+          paddingTop: topInsetEm > 0 ? `${topInsetEm}em` : undefined,
           willChange: "font-size",
         }}
         className={`inline-block whitespace-nowrap leading-none ${className ?? ""}`}
